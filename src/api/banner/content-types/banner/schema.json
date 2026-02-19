@@ -33,6 +33,16 @@
           "localized": true
         }
       }
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": ["light", "dark"],
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
     }
   }
 }
